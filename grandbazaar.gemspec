@@ -1,4 +1,3 @@
-
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "grandbazaar/version"
@@ -28,5 +27,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "rspec-support", "~> 3.1.2"
   spec.add_development_dependency "guard-rspec", "~> 4.7.3"
-  
+  spec.add_development_dependency "actionpack", "~> 4.1.4"
 end
