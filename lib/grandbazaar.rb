@@ -1,4 +1,5 @@
 require "grandbazaar/version"
+require "grandbazaar/base_controller"
 
 module Grandbazaar
   

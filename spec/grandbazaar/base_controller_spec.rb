@@ -1,7 +1,7 @@
 require "spec_helper"
 
 RSpec.describe Grandbazaar::BaseController, type: :controller do
-  it "true is not false" do
-    expect(false).not_to be true
+  it "has a version number" do
+    expect(true).to be true
   end
 end

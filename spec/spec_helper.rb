@@ -1,5 +1,12 @@
 require "bundler/setup"
+require "action_controller"
+require "action_controller/base"
+
+class ApplicationController < ActionController::Base
+end
+
 require "grandbazaar"
+require "grandbazaar/base_controller"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
